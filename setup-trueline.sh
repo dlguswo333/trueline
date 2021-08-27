@@ -10,12 +10,12 @@ fi
 
 # Get trueline source.
 if [ ! -f "./trueline.sh" ]; then
-wget https://raw.githubusercontent.com/petobens/trueline/master/trueline.sh -P ./
+wget https://raw.githubusercontent.com/dlguswo333/trueline/master/trueline.sh -P ./
 
 # Export configurations before sourcing trueline.
 echo "
 declare -A TRUELINE_COLORS=(
-    ['deep_green']='101;160;99'
+    ['deep_green']='20;140;50'
 )
 
 declare -a TRUELINE_SEGMENTS=(
@@ -40,4 +40,3 @@ declare -A TRUELINE_SYMBOLS=(
 echo "
 source $PWD/trueline.sh
 " >> ~/.bashrc
-
