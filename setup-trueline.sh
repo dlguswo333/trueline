@@ -26,17 +26,6 @@ declare -a TRUELINE_SEGMENTS=(
     'bg_jobs,black,white,bold'
 )
 
-declare -A TRUELINE_SYMBOLS=(
-    ['bg_jobs']='○'
-    ['working_dir_folder']='…'
-    ['working_dir_home']='~'
-    ['git_github']=''
-    ['git_modified']='*'
-    ['git_ahead']='↑'
-    ['git_behind']='↓'
-)
-" >> ~/.bashrc
-
 # Source trueline.
 echo "source $PWD/trueline.sh
 " >> ~/.bashrc
