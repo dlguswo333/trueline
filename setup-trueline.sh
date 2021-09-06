@@ -19,7 +19,7 @@ echo "declare -A TRUELINE_COLORS=(
 )
 
 declare -a TRUELINE_SEGMENTS=(
-    'venv,white,purle,normal'
+    'venv,white,purple,normal'
     'user,white,special_grey,normal'
     'working_dir,white,deep_green,normal'
     'git,black,white,normal'
