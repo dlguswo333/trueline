@@ -25,6 +25,7 @@ declare -a TRUELINE_SEGMENTS=(
     'git,black,white,normal'
     'bg_jobs,black,white,bold'
 )
+" >> ~/.bashrc
 
 # Source trueline.
 echo "source $PWD/trueline.sh
