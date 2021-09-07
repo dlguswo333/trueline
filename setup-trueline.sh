@@ -14,17 +14,21 @@ wget https://raw.githubusercontent.com/dlguswo333/trueline/master/trueline.sh -P
 fi
 
 # Export configurations before sourcing trueline.
-echo "declare -A TRUELINE_COLORS=(
+echo "
+declare -A TRUELINE_COLORS=(
     ['deep_green']='20;140;50'
+    ['blue']='30;160;220'
 )
 
 declare -a TRUELINE_SEGMENTS=(
     'venv,white,purple,normal'
-    'user,white,special_grey,normal'
+    'user,white,blue,normal'
     'working_dir,white,deep_green,normal'
     'git,black,white,normal'
     'bg_jobs,black,white,bold'
 )
+
+source /home/dlguswo333/trueline/trueline.sh
 " >> ~/.bashrc
 
 # Source trueline.
