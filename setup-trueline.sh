@@ -27,8 +27,6 @@ declare -a TRUELINE_SEGMENTS=(
     'git,black,white,normal'
     'bg_jobs,black,white,bold'
 )
-
-source /home/dlguswo333/trueline/trueline.sh
 " >> ~/.bashrc
 
 # Source trueline.
