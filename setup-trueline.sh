@@ -17,12 +17,11 @@ fi
 echo "
 declare -A TRUELINE_COLORS=(
     ['deep_green']='20;140;50'
-    ['blue']='30;160;220'
 )
 
 declare -a TRUELINE_SEGMENTS=(
     'venv,white,purple,normal'
-    'user,white,blue,normal'
+    'user,white,special_grey,normal'
     'working_dir,white,deep_green,normal'
     'git,black,white,normal'
     'bg_jobs,black,white,bold'
