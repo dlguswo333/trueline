@@ -13,6 +13,12 @@ configuration and, among other goodies, shows the current input mode (when in vi
 
 ![](https://user-images.githubusercontent.com/2583971/59968771-a7962e80-9515-11e9-9feb-d993ef0f4855.png)
 
+## Changes in this Fork
+
+This fork version (dlguswo333/trueline) prints shortened commit hash value if working
+directory is detached from HEAD. Also It includes untracked files when counting the
+number of modified files.
+
 ## Installation
 
 Download the `trueline.sh` script in this repo and source it from within your `.bashrc`
