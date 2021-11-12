@@ -15,9 +15,10 @@ configuration and, among other goodies, shows the current input mode (when in vi
 
 ## Changes in this Fork
 
-This fork version (dlguswo333/trueline) prints shortened commit hash value if working
-directory is detached from HEAD. Also It includes untracked files when counting the
-number of modified files.
+This fork version [(dlguswo333/trueline)](https://github.com/dlguswo333/trueline)
+prints shortened commit hash value if working directory is detached from HEAD.
+Also It includes untracked files into the number of modified files.
+You can setup easily by executing the shell script file `setup-trueline.sh`.
 
 ## Installation
 
